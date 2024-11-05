@@ -1,0 +1,21 @@
+.envelope {
+    display: inline-block;
+    background-color: #f8d7da; /* Cor de fundo */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: 2px solid #f5c6cb; /* Borda do envelope */
+    position: relative; /* Para posicionar o pseudo-elemento */
+    font-weight: bold; /* Para destacar o texto */
+}
+
+.envelope::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Ajuste conforme necessário */
+    left: 10px; /* Ajuste conforme necessário */
+    width: 100%;
+    height: 100%;
+    background-color: #f5c6cb; /* Cor de fundo da borda */
+    z-index: -1; /* Para ficar atrás do texto */
+    border-radius: 10px; /* Bordas arredondadas */
+}

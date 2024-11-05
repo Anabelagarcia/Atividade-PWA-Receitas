@@ -1,16 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="white">
     <title>PWA Receitas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.iconpacks.net/icons/1/free-restaurant-icon-952-thumb.png" alt="Logo"
+                        width="32" height="32" class="d-inline-block align-text-top">
+                    Panela da Vovó
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div style="position: relative; text-align: center;">
+            <img src="https://thumbs.dreamstime.com/b/grandmas-charming-kitchen-hanging-pots-fresh-ingredients-table-delightful-smellsa-perfect-backdrop-cooking-336985126.jpg"
+                class="img-fluid" alt="..." style="width: 100%;">
+            <h1
+                style="position: absolute; top: 10%; left: 50%; transform: translate(-50%, -50%);">
+                Receitas de Panela da <span class="envelope text-success">Vovó</span></h1>
+
+            <div style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); width: 90%;">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas de Carnes</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Sabor em cada prato!</h6>
+                                <p class="card-text">Descubra uma variedade de receitas deliciosas e fáceis de preparar
+                                    com carnes. Desde pratos clássicos até opções inovadoras, temos tudo para satisfazer
+                                    seu paladar!</p>
+                                <a href="carnes.html" class="card-link">Ver Receitas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas de Doces</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Sabor e Doçura</h6>
+                                <p class="card-text">Explore uma variedade de receitas de doces irresistíveis! Desde
+                                    bolos, tortas até sobremesas rápidas, temos opções para todos os gostos e ocasiões.
+                                </p>
+                                <a href="doces.html" class="card-link">Ver Receitas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Receitas de Massas</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Sabor e Tradição</h6>
+                                <p class="card-text">Descubra uma variedade de receitas deliciosas de massas, desde
+                                    clássicos como macarrão à bolonhesa até opções vegetarianas. Pratos que vão encantar
+                                    o seu paladar!</p>
+                                <a href="massas.html" class="card-link">Ver Receitas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container bg-light">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body">About</a></li>
+            </ul>
+            <p class="text-center text-body">&copy; 2024 Company, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
+
+
 </html>
