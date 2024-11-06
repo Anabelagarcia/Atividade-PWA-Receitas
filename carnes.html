@@ -1,11 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panela da Vovó --&gt; Receitas da Carnes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panela da Vovó --> Receitas da Carnes</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
+  <header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="https://www.iconpacks.net/icons/1/free-restaurant-icon-952-thumb.png" alt="Logo" width="38"
+            height="38" class="d-inline-block align-text-top">
+        </a>
+        <h3 class="text-center fw-light">Panela da Vovó</h3>
+        <a href="./index.html" class="d-flex">
+          <img src="./images/pwa-icon-256.png" alt="Logo 2" width="38" height="38" class="">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text-center fw-bold my-5">Receitas de Carnes da Vovó</h1>
+
+    <div class="container">
+      <div class="recipe-card border-0 card text-bg-dark">
+        <img src="https://t4.ftcdn.net/jpg/06/14/57/93/360_F_614579328_KQwoje0i4U1Nmat54wqOVeJrEujvjP7m.jpg"
+          alt="Feijoada" style="object-fit: cover; height: 450px;">
+        <div class="card-img-overlay">
+          <div class="p-2 flex-grow-1">
+            <h2 class="fw-bold" style="font-size: 150px;">Feijoada</h2>
+            <p class="card-text fs-4">Uma deliciosa combinação de feijão preto e carnes, perfeita para compartilhar em
+              família.</p>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#feijoadaModal">
+              Ver Receita na íntegra
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="feijoadaModal" tabindex="-1" aria-labelledby="feijoadaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="feijoadaModalLabel">Receita de Feijoada</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex justify-content-between px-5">
+                <div>
+
+                  <h2>Ingredientes</h2>
+                  <h4>Para a Feijoada:</h4>
+                  <ul>
+                    <li>500g de feijão preto</li>
+                    <li>200g de carne seca</li>
+                    <li>200g de costela de porco</li>
+                    <li>150g de linguiça calabresa</li>
+                    <li>150g de paio</li>
+                    <li>100g de bacon</li>
+                    <li>1 cebola grande picada</li>
+                    <li>4 dentes de alho picados</li>
+                    <li>2 folhas de louro</li>
+                    <li>Sal a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>Água suficiente para cozinhar</li>
+                  </ul>
+                </div>
+                <div>
+
+                  <h4>Para Servir:</h4>
+                  <ul>
+                    <li>Arroz branco</li>
+                    <li>Couve refogada</li>
+                    <li>Laranja em rodelas</li>
+                    <li>Farinha de mandioca</li>
+                    <li>Pimenta (opcional)</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h2>Modo de Preparo</h2>
+              <ol>
+                <li><strong>Preparar o Feijão:</strong> Deixe o feijão preto de molho em água por pelo menos 8 horas (ou
+                  de um dia para o outro).</li>
+                <li><strong>Cozinhar as Carnes:</strong> Em uma panela grande, coloque a carne seca e a costela de
+                  porco. Cubra com água e cozinhe até que as carnes estejam macias, cerca de 1 a 2 horas. Reserve.</li>
+                <li><strong>Preparar o Refogado:</strong> Em outra panela, frite o bacon até ficar crocante. Adicione a
+                  cebola e o alho, refogando até dourar. Acrescente a linguiça calabresa e o paio, dourando levemente.
+                </li>
+                <li><strong>Misturar os Ingredientes:</strong> Adicione o feijão escorrido ao refogado. Junte as folhas
+                  de louro e as carnes cozidas. Adicione água suficiente para cobrir e tempere com sal e
+                  pimenta-do-reino a gosto.</li>
+                <li><strong>Cozinhar a Feijoada:</strong> Cozinhe em fogo baixo por 1 a 2 horas, mexendo ocasionalmente,
+                  até que o feijão esteja macio e o caldo espesso.</li>
+                <li><strong>Finalizar:</strong> Ajuste o tempero conforme necessário. Se estiver muito grosso, adicione
+                  mais água e cozinhe mais.</li>
+              </ol>
+
+              <h2>Para Servir</h2>
+              <p>Sirva a feijoada quente com arroz branco, couve refogada, rodelas de laranja e farinha de mandioca.</p>
+
+              <h2>Dicas</h2>
+              <ul>
+                <li>A feijoada melhora com o tempo, ótima para preparar com antecedência.</li>
+                <li>As carnes podem ser ajustadas conforme o gosto pessoal.</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar Receita</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 ">
+        <div class="col">
+          <div class="recipe-card card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://assets.epicurious.com/photos/62f16ed5fe4be95d5a460eed/1:1/w_2560%2Cc_limit/RoastChicken_RECIPE_080420_37993.jpg"
+                  class="img-fluid" alt="Frango assado da Vovó">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="fs-3 fw-bold">Frango Assado da Vovó</h2>
+                  <p class="card-text">Um frango assado suculento e temperado, perfeito para as refeições em família.
+                  </p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#frangoModal">
+                    Ver Receita na íntegra
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal de Frango Assado -->
+          <div class="modal fade" id="frangoModal" tabindex="-1" aria-labelledby="frangoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="frangoModalLabel">Receita de Frango Assado da Vovó</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2>Ingredientes</h2>
+                  <ul>
+                    <li>1 frango inteiro (aproximadamente 1,5 kg)</li>
+                    <li>4 dentes de alho picados</li>
+                    <li>1 cebola picada</li>
+                    <li>2 limões (suco)</li>
+                    <li>1 colher de sopa de sal</li>
+                    <li>1 colher de chá de pimenta-do-reino</li>
+                    <li>1 colher de sopa de colorau</li>
+                    <li>1/4 de xícara de azeite de oliva</li>
+                    <li>Ervas a gosto (alecrim, tomilho, etc.)</li>
+                    <li>Batatas a gosto para acompanhar</li>
+                  </ul>
+
+                  <h2>Modo de Preparo</h2>
+                  <ol>
+                    <li><strong>Preparar o Frango:</strong> Limpe o frango e retire o excesso de gordura. Faça cortes na
+                      pele para que o tempero penetre.</li>
+                    <li><strong>Temperar:</strong> Em uma tigela, misture o alho, cebola, suco de limão, sal,
+                      pimenta-do-reino, colorau e azeite. Espalhe essa mistura sobre o frango, massageando bem.</li>
+                    <li><strong>Marinar:</strong> Deixe o frango marinar por pelo menos 2 horas (ou de um dia para o
+                      outro na geladeira).</li>
+                    <li><strong>Assar:</strong> Preaqueça o forno a 180°C. Coloque o frango em uma assadeira, adicione
+                      as batatas ao redor e asse por cerca de 1h30 ou até que o frango esteja dourado e cozido por
+                      dentro.</li>
+                    <li><strong>Servir:</strong> Retire do forno, deixe descansar por 10 minutos e sirva com as batatas
+                      e salada.</li>
+                  </ol>
+
+                  <h2>Dicas</h2>
+                  <ul>
+                    <li>Para um frango ainda mais saboroso, experimente recheá-lo com limões e ervas antes de assar.
+                    </li>
+                    <li>O frango assado pode ser servido com arroz, farofa e salada.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar Receita</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="recipe-card card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/01/Role-suino-na-pressao.jpg"
+                  class="img-fluid" alt="Bife à Rolê">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="fs-3 fw-bold">Bife à Rolê</h2>
+                  <p class="card-text">Um prato saboroso e recheado, perfeito para um almoço especial.</p>
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bifeModal">
+                    Ver Receita na íntegra
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal do Bife à Rolê -->
+          <div class="modal fade" id="bifeModal" tabindex="-1" aria-labelledby="bifeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="bifeModalLabel">Receita de Bife à Rolê</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2>Ingredientes</h2>
+                  <ul>
+                    <li>500g de carne bovina (patinho ou coxão mole) cortada em bifes finos</li>
+                    <li>100g de cenoura ralada</li>
+                    <li>100g de presunto em fatias</li>
+                    <li>100g de queijo muçarela em fatias</li>
+                    <li>1 cebola picada</li>
+                    <li>2 dentes de alho picados</li>
+                    <li>Sal e pimenta-do-reino a gosto</li>
+                    <li>1/4 de xícara de molho de tomate</li>
+                    <li>1/4 de xícara de água</li>
+                    <li>Óleo para fritar</li>
+                  </ul>
+
+                  <h2>Modo de Preparo</h2>
+                  <ol>
+                    <li><strong>Preparar os Rolês:</strong> Abra os bifes e tempere com sal e pimenta-do-reino.</li>
+                    <li><strong>Montar os Rolês:</strong> Em cada bife, coloque uma fatia de presunto, uma de queijo e
+                      um pouco de cenoura ralada. Enrole e prenda com palitos de dente.</li>
+                    <li><strong>Refogar:</strong> Em uma panela, aqueça o óleo e doure os rolês de todos os lados.</li>
+                    <li><strong>Adicionar Molho:</strong> Junte a cebola e o alho picados, refogue até que a cebola
+                      fique transparente. Adicione o molho de tomate e a água, cozinhando em fogo baixo por cerca de 30
+                      minutos.</li>
+                    <li><strong>Servir:</strong> Retire os palitos antes de servir e aproveite acompanhado de arroz e
+                      salada.</li>
+                  </ol>
+
+                  <h2>Dicas</h2>
+                  <ul>
+                    <li>Você pode variar o recheio dos bifes com outros ingredientes, como azeitonas e ervas.</li>
+                    <li>Para um prato mais completo, sirva com purê de batata ou legumes assados.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar Receita</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="bg-light">
+    <footer class="py-1 py-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Pedidos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Receitas</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Blog</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body">Sobre</a></li>
+      </ul>
+      <p class="text-center text-body">&copy; 2024 Company, Inc</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

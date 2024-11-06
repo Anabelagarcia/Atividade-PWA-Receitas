@@ -1,5 +1,5 @@
-let cacheName = "my-horario";
-let filesToCache = ["/", "/index.html", "/massas.html", "/doces.html", "/carnes.html", "/css/style.css", "/js/main.js"]
+let cacheName = "my-recipes";
+let filesToCache = ["/", "/index.html", "/massas", "/doces", "/carnes", "/css/style.css", "/js/main.js"]
 
 /* inicializando a service worker e fazendo o download do contepudo da aplicação */
 self.addEventListener("install", (e) => {

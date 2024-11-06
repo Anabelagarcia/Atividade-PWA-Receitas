@@ -1,7 +1,7 @@
 {
-  "name": "atividade-pwa-horario-de-aula",
+  "name": "atividade-pwa-receitas",
   "version": "1.0.0",
-  "description": "Este é o horario da sala Info 6° B",
+  "description": "Este é um site de receitas",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
