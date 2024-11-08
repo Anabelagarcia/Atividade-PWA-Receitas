@@ -6,7 +6,7 @@
     border: 2px solid #f5c6cb; /* Borda do envelope */
     position: relative; /* Para posicionar o pseudo-elemento */
     font-weight: bold; /* Para destacar o texto */
-    margin-bottom: 5px;
+    margin: 5px;
     color: #f86c42;
 }
 
@@ -43,4 +43,50 @@
 .recipe-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.posicao-titulo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.posicao-cards {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+}
+
+@media (max-width: 880px) {
+    .h1 {
+        font-size: 25px !important;
+    }
+    .posicao-cards {
+        position: relative;
+        top: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .posicao-cards {
+        left: auto;
+        transform: none;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .f-massa, .f-pudim {
+        font-size: 50px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .f-pudim {
+        font-size: 20px !important;
+    }
 }
